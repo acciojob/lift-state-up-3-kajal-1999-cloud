@@ -1,13 +1,13 @@
 
 import React from "react";
 import './../styles/App.css';
-import ParentComponent from "./ParentComponent";
+import ParentComponents from "./ParentComponents";
 
 const App = () => {
   return (
     <div className="App">
         {/* Do not remove the main div */}
-        <ParentComponent />
+        <ParentComponents />
     </div>
   )
 }
